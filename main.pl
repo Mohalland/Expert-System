@@ -47,8 +47,9 @@ hair_style(quiff, 'The quiff combines the 1950s pompadour hairstyle, the 1950s f
 hair_style(wave,'Short Hair Waves, shortened to just waves, is a very common and sought after hairstyle for African American men that create the appearance of water like waves of the hair').
 
 %human(name, gender, eye colour, hair colour, special features, hair style, skin colur, height, weight)
-suspect(fname(nestor), lname(schnabel), genders(male), eye_colour(white), hairColour(brown), special_features(['dragon tattoo shoulder', 'scar right eye']), hair_style(wave), skin_colour(black), height([5,9])).
-suspect(fname(freeman), lname(haverty)
+%populate suspects/known offenders
+suspect(fname(nestor), lname(schnabel), gender(male), eye_colour(blue), hairColour(brown), special_features(['dragon tattoo shoulder', 'scar right eye']), hair_style(wave), skin_colour(dark), height([5,9])).
+suspect(fname(freeman), lname(haverty), gender(male), eye_colour(brown), hairColour(black), special_features('dragon tattoo chest'), hair_style(mohawk), skin_colour(light), height([5,11])).
 expert_system:-
                nl,write('Enter suspect Race: '), read(Race),
                nl,write('Enter suspect skin colour: '), read(Skin_colour),
