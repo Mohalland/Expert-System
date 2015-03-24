@@ -107,7 +107,7 @@ suspect(fname(Devin Wix gender(female)
 suspect(female(Vernon Ory gender(female)
 suspect(fname(Callie Grever gender(male)
 
-expert_system:-
+expert_system_main:-
                nl,write('Enter suspect Race: '), read(Race),
                nl,write('Enter suspect skin colour: '), read(Skin_colour),
                nl,write('Enter suspect gender: '), reda(Gender).
