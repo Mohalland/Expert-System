@@ -52,7 +52,21 @@ suspect(fname(nestor), lname(schnabel), gender(male), eye_colour(blue), hair_col
 suspect(fname(freeman), lname(haverty), gender(male), eye_colour(brown), hair_colour(black), special_features('dragon tattoo chest'), hair_style(mohawk), skin_colour(light), height([5,11])).
 suspect(fname(darcie), lname(merino), gender(female), eye_colour(blue), hair_colour(blonde), special_features ).
 suspect(fname(oralia), lname(keplin), gender(female), eye_colour(hazel), hair_colour(brown), special_features ).
-suspect(fname(
+suspect(fname(erline), lname(vierra), gender(female), eye_colour(hazel), hair_colur(blande), special_features(none),  ).
+suspect(fname(mistie), lanme(Rayborn), gender(female),  ).
+suspecct(fname(roslyn) lname(rickman), gender(female),  ).
+suspect(fname(hilton) lname(laflamme), gender(male)    ).
+suspect(Roland Buckner gender(male)
+suspect(fname(Emily Condello gender(female),
+suspect(fname(Tana Rominger gender(female),
+suspect(fname(Rozanne Mansour gender(female),
+suspect(fnamne(Wilburn Paradise gender(male)
+suspect(fname(Antwan Killion gender(male)
+suspect(fname(Marilou Razo gender(female)
+suspect(fname(Lynetta Reisman gender(female)
+suspect(fname(Devin Wix gender(female)
+suspect(female(Vernon Ory gender(female)
+suspect(fname(Callie Grever gender(male)
 expert_system:-
                nl,write('Enter suspect Race: '), read(Race),
                nl,write('Enter suspect skin colour: '), read(Skin_colour),
