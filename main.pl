@@ -20,7 +20,7 @@ skin_colour(light).
 %weight (pounds)
 %special features( tattoo/scars)
 special_features(scars).
-%hair color  (black, brown, red, blonde, )http://www.latest-hairstyles.com/color/chart.html
+%hair color  (black, brown, red, blonde, )
 hair_colour(black).
 hair_colour(brown).
 hair_colour(red).
@@ -48,7 +48,7 @@ hair_style(wave,'Short Hair Waves, shortened to just waves, is a very common and
 
 %human(name, gender, eye colour, hair colour, special features, hair style, skin colur, height, weight)
 suspect(fname(nestor), lname(schnabel), genders(male), eye_colour(white), hairColour(brown), special_features(['dragon tattoo shoulder', 'scar right eye']), hair_style(wave), skin_colour(black), height([5,9])).
-suspect(
+suspect(fname(freeman), lname(haverty)
 expert_system:-
                nl,write('Enter suspect Race: '), read(Race),
                nl,write('Enter suspect skin colour: '), read(Skin_colour),
