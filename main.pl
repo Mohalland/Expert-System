@@ -48,8 +48,11 @@ hair_style(wave,'Short Hair Waves, shortened to just waves, is a very common and
 
 %human(name, gender, eye colour, hair colour, special features, hair style, skin colur, height, weight)
 %populate suspects/known offenders
-suspect(fname(nestor), lname(schnabel), gender(male), eye_colour(blue), hairColour(brown), special_features(['dragon tattoo shoulder', 'scar right eye']), hair_style(wave), skin_colour(dark), height([5,9])).
-suspect(fname(freeman), lname(haverty), gender(male), eye_colour(brown), hairColour(black), special_features('dragon tattoo chest'), hair_style(mohawk), skin_colour(light), height([5,11])).
+suspect(fname(nestor), lname(schnabel), gender(male), eye_colour(blue), hair_colour(brown), special_features(['dragon tattoo shoulder', 'scar right eye']), hair_style(wave), skin_colour(dark), height([5,9])).
+suspect(fname(freeman), lname(haverty), gender(male), eye_colour(brown), hair_colour(black), special_features('dragon tattoo chest'), hair_style(mohawk), skin_colour(light), height([5,11])).
+suspect(fname(darcie), lname(merino), gender(female), eye_colour(blue), hair_colour(blonde), special_features ).
+suspect(fname(oralia), lname(keplin), gender(female), eye_colour(hazel), hair_colour(brown), special_features ).
+suspect(fname(
 expert_system:-
                nl,write('Enter suspect Race: '), read(Race),
                nl,write('Enter suspect skin colour: '), read(Skin_colour),
